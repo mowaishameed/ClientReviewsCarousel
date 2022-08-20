@@ -46,7 +46,7 @@ body{
 }
 
 #user-img{
-    background-image:url(/Carousel_Reviews/img/Person_1.png) ;
+    background-image:url(img/Person_1.png) ;
     height: 150px;
     width: 150px;
     margin: auto;
