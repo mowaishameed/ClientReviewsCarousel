@@ -15,7 +15,7 @@ function nextclient(){
 
     if(i < 4){
         
-        let a = `url(/Carousel_Reviews/img/Person_${i+1}.png)`;
+        let a = `url(img/Person_${i+1}.png)`;
         document.getElementById('user-img').style.backgroundImage = a;
         
         document.getElementById("client-name").innerHTML = people[i];
@@ -34,7 +34,7 @@ function previousclient(){
 
 
     if(i > 1){
-        let a = `url(/Carousel_Reviews/img/Person_${i-1}.png)`;
+        let a = `url(img/Person_${i-1}.png)`;
             document.getElementById('user-img').style.backgroundImage = a;
 
             document.getElementById("client-name").innerHTML = people[i-2];
