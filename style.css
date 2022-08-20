@@ -1,0 +1,105 @@
+/* CSS RESET */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --opacity: 0.7;
+}
+
+body{
+    font-family: 'Bree Serif', serif;
+    /* background-color: rgb(165, 165, 165); */
+    animation: box1 15s ease-in-out infinite 0s;
+}
+
+/* .main-container{
+    display: flex;
+    height: 800px;
+} */
+
+.container{
+    /* border: 2px solid black; */
+    margin: 120px auto;
+    height: 500px;
+    width: 580px;
+    padding: 12px;
+    text-align: center;
+    background-color: rgb(209, 205, 205);
+    border-radius: 12px;
+    box-shadow: 3px 3px 16px 7px darkslategrey;
+}
+
+.container h1 {
+    margin: 0px 0px 45px 0px;
+}
+
+.review-area img{
+    /* border: 2px solid red; */
+    /* background-color: brown; */
+    /* height: 150px;
+    width: 150px;
+    border-radius: 80px; */
+    /* background-image:url(/Carousel_Reviews/img/Person_1.png) ; */
+}
+
+#user-img{
+    background-image:url(/Carousel_Reviews/img/Person_1.png) ;
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    border-radius:80px ;
+}
+
+
+#client-name{
+    margin: 25px 0px;
+}
+
+.client-review{
+    margin: 25px 0px 40px 0px;
+
+}
+
+#client-review1{display: none;}
+#client-review2{display: none;}
+#client-review3{display: none;}
+#client-review4{display: none;}
+
+.button{
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+    margin: 12px;
+}
+
+
+@keyframes box1 {
+    0%{background-color: rgba(255, 0, 0, var(--opacity) );}
+
+    8.33%{background-color: rgba(255, 128, 0, var(--opacity));}
+
+    16.67%{background-color: rgba(255, 255, 0, var(--opacity));}
+    
+    25%{background-color: rgba(128, 255, 0, var(--opacity));}
+
+    33.32%{background-color: rgba(0, 255, 0, var(--opacity));} 
+    
+    41.65%{background-color: rgba(0, 255, 128, var(--opacity));}
+
+    49.99%{background-color: rgba(0, 255, 255, var(--opacity));}
+
+    58.31%{background-color: rgba(0, 128, 255, var(--opacity));}
+    
+    66.64%{background-color: rgba(0, 0, 255, var(--opacity));}
+    
+    74.98%{background-color: rgba(128, 0, 255, var(--opacity));}
+    
+    83.3%{background-color: rgba(255, 0, 255, var(--opacity));}
+    
+    91.63%{background-color: rgba(255, 0, 128, var(--opacity));}
+    
+    100%{background-color: rgba(255, 0, 0,var(--opacity));}
+}
